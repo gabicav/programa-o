@@ -30,3 +30,10 @@ objetivos do ano_<span>_<(span>/ (/h2)
     width:100%
     font-size:32px
 }
+.botao{
+    font-family:"Chakra Petch", sans-serif;
+    background-color:var(--botao-inativo)
+    color:var(--branco)
+    display:flex;
+    justify-cpntent:center
+}
