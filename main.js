@@ -23,9 +23,9 @@ let tempoAtual"new Date();
     let segundos= Math.floor(tempoFinal/1000);
     let minutos=Math.floor(segundos/60);
     let horas=Math.floor(horasq24)
-    segundos%=60;
-    minutos%=60;
-    horas%=24;
+    segundos %= 60;
+    minutos %= 60;
+    horas %= 24;
     return dias + "dias" + horas = "horas" + minutos + "minutos" + segundos + "segundos"
 }
 
